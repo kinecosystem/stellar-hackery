@@ -12,5 +12,6 @@ before_script:
   - ./travis-stellar-core-macos/stellarcmd/stellarcmd -c ./travis-stellar-core-macos/stellarcmd/config.json create GBQ3DQOA7NF52FVV7ES3CR3ZMHUEY4LTHDAQKDTO6S546JCLFPEQGCPK
   - ./travis-stellar-core-macos/stellarcmd/stellarcmd -c ./travis-stellar-core-macos/stellarcmd/config.json create GBSJ7KFU2NXACVHVN2VWQIXIV5FWH6A7OIDDTEUYTCJYGY3FJMYIDTU7
   - ./travis-stellar-core-macos/stellarcmd/stellarcmd -c ./travis-stellar-core-macos/stellarcmd/config.json info GBSJ7KFU2NXACVHVN2VWQIXIV5FWH6A7OIDDTEUYTCJYGY3FJMYIDTU7
+  - curl 'http://localhost:8000/accounts/GBSJ7KFU2NXACVHVN2VWQIXIV5FWH6A7OIDDTEUYTCJYGY3FJMYIDTU7'
 
 script:
